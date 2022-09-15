@@ -13,7 +13,7 @@
         }
         .input-icons{
             width: 100%;
-            margin-bottom: 10px;
+            margin-bottom: 1px;
             margin-left: -23%;
         }
         .icon{
@@ -101,17 +101,22 @@
                 border: none;
                 margin-right: 1%;
                 background-color: RGBA(0,0,255,0.03);
-                font-size: 14px;
+                color: rgba(0,0,0,0.7);
+                font-size: 15px;
+
             }
             #butt:hover{
                 background-color:white;
                 border: 0.5PX solid lightgray;
             }
             #imm{
+                margin-top: -7%;
                 width: 10%;
                 height: 32px;
                 border: none;
                 background-color: RGBA(0,0,255,0.03);
+                color: rgba(0,0,0,0.7);
+                font-size: 15px;
             }
             #imm:hover{
                 background-color:white;
@@ -119,6 +124,128 @@
             }
             .fa-search{
             color: RGBA(0,0,255,0.3);
+        }
+        .offered{
+                font-family: sans-serif;
+                font-size: small;
+                text-align: center;
+                color: rgba(0,0,0,0.7);
+                margin: 6%;
+                margin-top: 2%;
+            }
+            a{
+                text-decoration: none;
+                margin-right: 1.5%;
+            }
+        @media only screen  and (max-width:480px){
+                .divv{
+                    width: 272px;
+                    height: 92px;
+                    margin-top: 6%;
+                    margin-left: 18.5%;
+            }
+            .GgleAcc{
+            width: 32px;
+            height: 32px;
+            margin-top: -0.5;
+            float: right;
+            border-radius: 50%;
+            background-color: lightslategray;
+            text-align: center;
+            font-family: fantasy;
+            border: 0.5px solid gray;
+            font-size:medium;
+            color: aliceblue;
+            margin-top: 1.2%;
+            margin-right: 2.2%;
+        }
+        .GgleApp{
+            border: none;
+            width: 15px;
+            height: 15px;
+            float: right;
+            margin-top: 2.2%;
+            margin-right: 6%;
+        }
+        .link1{
+                margin-right: 6%;
+                margin-top: 3.2%;
+                text-decoration: none;
+                float: right;
+                font-family:fantasy;
+                font-size: small;
+                color: black;
+            }
+            .link2{
+                margin-right: 3.2%;
+                margin-top: 3.2%;
+                position:relative;
+                text-decoration: none;
+                float: right;
+                font-family:fantasy;
+                font-size: small;
+                color: black;
+            }
+            .input-icons{
+            width: 72%;
+            margin-top: 8%;
+            margin-left: -5%;
+        } 
+        #butt{
+            font-family:fantasy;
+                width: 30%;
+                height: 32px;
+                border: none;
+                margin-right: 1%;
+                background-color: RGBA(0,0,255,0.03);
+                color: rgba(0,0,0,0.7);
+                font-size: 15px;
+            }
+            #butt:hover{
+                background-color:white;
+                border: 0.5PX solid lightgray;
+            }
+            .buu{
+                text-align: center;
+                width: 100%;
+                margin-top: -2%;
+            }
+            #imm{
+                width: 30%;
+                height: 32px;
+                border: none;
+                background-color: RGBA(0,0,255,0.03);
+                color: rgba(0,0,0,0.7);
+                font-size: 15px;
+                font-family:fantasy;
+            }
+            #imm:hover{
+                background-color:white;
+                border: 0.5PX solid lightgray;
+            }
+            .offered{
+                font-family: sans-serif;
+                font-size: small;
+                text-align: center;
+                color: rgba(0,0,0,0.7);
+                margin: 6%;
+            }
+            a{
+                text-decoration: none;
+                margin-right: 1.5%;
+            }
+            .bott{
+                background-color:RGBA(0,0,0,0.05);
+                width:105%;
+                height: 170px;
+                margin-left: -2%;
+                
+            }
+            .Nigeria{
+                width: 15%;
+                text-align: right;
+                padding: 2px;
+            }    
         }
     </style>
 </head>
@@ -138,7 +265,20 @@
         </div><br><br>
         <div class="buu">
            <button id="butt">Google Search</button>
-           <button id="imm">I'm feeling Lucky</button>
+           <button id="imm">I'm Feeling Lucky</button>
+        </div>
+        <p class="offered">
+            Google offered in: 
+            <a href="##">Hausa</a>
+            <a href="##">Igbo</a>
+            <a href="##">Èdè Yorùbá</a>
+            <a href="##">Nigerian Pidgin</a>
+        </p>
+        <div class="bott">
+            <div class="Nigeria">
+            <P  style="opacity: 0.5; font-family:fantasy; font-size: 15px;">Nigeria</P>
+        </div>
+        <hr style="opacity:0.2; margin-top: -1%;">
         </div>
         </body>
 </html>
